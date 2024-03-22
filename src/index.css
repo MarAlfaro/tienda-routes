@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.features {
+  padding: 3%;
+  text-align: center;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.features ul li {
+  display: inline;
+}
+
+nav a.is-active {
+  font-weight: bold;
+  pointer-events: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+p {
+  color: #061120;
+}
+.features img{
+  width: 380px;
+  border-radius: 15px;
+  
+}
+h2{
+  margin-top: 0px;
+}
